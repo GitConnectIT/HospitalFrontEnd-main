@@ -1,0 +1,10 @@
+.input-search {
+  box-shadow: none !important;
+  border: 1px solid var(--bs-primary) !important;
+}
+.input-group .btn {
+  z-index: unset !important;
+}
+.input-group:focus-within *:focus {
+  outline: 0 !important;
+}

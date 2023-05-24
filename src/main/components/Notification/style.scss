@@ -1,0 +1,52 @@
+.notification-wrapper {
+  position: fixed;
+  display: grid;
+  gap: 0.5rem;
+  place-items: center;
+  top: 0.3rem;
+  right: 0.3rem;
+  z-index: 2000;
+}
+.notification-content {
+  width: 100%;
+  color: var(--bs-white);
+  display: grid;
+  place-items: center;
+  gap: 1rem;
+  grid-template-columns: auto minmax(150px, 350px) auto;
+  border-radius: 5px;
+  padding: 1rem;
+}
+.notification-message {
+  margin: unset;
+  color: unset;
+}
+.notification-content.success {
+  background-color: var(--bs-light-success);
+  color: var(--bs-success);
+  border-left: 0.8rem solid var(--bs-success);
+}
+.notification-content.error {
+  background-color: var(--bs-light-danger);
+  color: var(--bs-danger);
+  border-left: 0.8rem solid var(--bs-danger);
+}
+.notification-content.warning {
+  background-color: var(--bs-light-warning);
+  color: var(--bs-warning);
+  border-left: 0.8rem solid var(--bs-warning);
+}
+.notification-content.info {
+  background-color: var(--bs-light-primary);
+  color: var(--bs-primary);
+  border-left: 0.8rem solid var(--bs-primary);
+}
+.notification-content.success .fa-solid {
+  color: var(--bs-success);
+}
+.notification-content.error .fa-solid {
+  color: var(--bs-danger);
+}
+.notification-content.warning .fa-solid {
+  color: var(--bs-secondary);
+}

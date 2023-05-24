@@ -1,0 +1,22 @@
+.badge-container {
+  gap: 5px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.tag {
+  border-radius: 5px;
+  padding: 5px;
+  align-items: center;
+  background-color: var(--bs-danger);
+  color: var(--bs-white);
+}
+.arrow:hover {
+  cursor: pointer;
+}
+.tag-text {
+  white-space: nowrap;
+  width: 7rem;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}

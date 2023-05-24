@@ -1,0 +1,11 @@
+.modal-title {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.close-icon:hover {
+  cursor: pointer !important;
+  color: var(--bs-danger) !important;
+}

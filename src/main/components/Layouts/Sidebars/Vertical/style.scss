@@ -1,0 +1,16 @@
+.truncate {
+  width: 80%;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.profilebg {
+  background: url("../../../../assets/images/bg/download.jpg") no-repeat !important;
+  background-size: cover !important;
+}
+.background-transparent {
+  background: rgba(2, 2, 2, 0.598);
+}
+.dropdown-menu.show {
+  background-color: var(--bs-gray-200);
+}

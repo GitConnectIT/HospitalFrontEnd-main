@@ -1,0 +1,9 @@
+.align-items-center {
+  display: grid;
+  align-items: center;
+}
+.display-content-center {
+  display: grid;
+  grid-auto-flow: column;
+  justify-content: space-between;
+}

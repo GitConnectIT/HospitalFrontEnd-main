@@ -1,0 +1,15 @@
+.search-select-container {
+  display: grid;
+  grid-auto-flow: column;
+  padding: 2px !important;
+  grid-template-columns: 1fr 2rem;
+  align-items: center;
+}
+.search-select-container:focus-within {
+  color: #67757c !important;
+  background-color: #fff !important;
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out !important;
+  border-color: #8fc4f2 !important;
+  outline: 0 !important;
+  box-shadow: 0 0 0 0.2rem transparent !important;
+}

@@ -1,0 +1,41 @@
+.css-4ljt47-MenuList:not(.table-touch)::-webkit-scrollbar {
+  width: 0.5rem !important;
+  background: transparent !important;
+}
+.css-4ljt47-MenuList::-webkit-scrollbar-thumb {
+  background: var(--bs-gray-400) !important;
+  border-radius: 0.25em !important;
+}
+.css-4ljt47-MenuList::-webkit-scrollbar-thumb:hover {
+  background: var(--bs-gray-600) !important;
+}
+.css-1esj8f1-control,
+.css-1bb6oom-control {
+  min-width: max-content !important;
+}
+.css-b62m3t-container {
+  .css-ncqub6-control {
+    background-color: var(--bs-white) !important;
+    transition: none !important;
+  }
+  .css-1jknvbe-menu {
+    background-color: var(--bs-white) !important;
+    box-shadow: 0px 0px 1px 1px var(--bs-gray-400) !important;
+  }
+  .css-1esj8f1-control {
+    border-color: var(--bs-gray-400) !important;
+    background-color: var(--bs-white) !important;
+  }
+  .css-1bb6oom-control {
+    background-color: var(--bs-white) !important;
+  }
+  .css-1qblra4-option {
+    background-color: var(--bs-light-primary) !important;
+  }
+  .css-1pndypt-Input input:focus {
+    color: var(--bs-gray-800) !important;
+  }
+  .css-sotz66-singleValue {
+    color: var(--bs-gray-900) !important;
+  }
+}

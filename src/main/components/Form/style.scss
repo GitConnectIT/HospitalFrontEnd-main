@@ -1,0 +1,33 @@
+.scheduler-form {
+  margin-bottom: 1rem;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: left;
+}
+
+.input-display {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.s-button {
+  margin: auto 2px;
+}
+
+@media only screen and (min-width: 900px) {
+  .input-display > * {
+    flex: 1 1 50%;
+    padding-right: 1rem;
+  }
+}
+.schedule-page-submit-btn {
+  position: fixed;
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 2.8rem;
+  bottom: 0;
+  left: 0;
+  width: 100vw;
+  box-shadow: 0 0 0.5rem 0.3rem var(--bs-gray-400);
+  background-color: var(--bs-gray-100);
+}

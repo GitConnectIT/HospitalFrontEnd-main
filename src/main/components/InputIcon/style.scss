@@ -1,0 +1,21 @@
+.input-icon:hover {
+  cursor: pointer;
+}
+.input-group .form-control:focus {
+  box-shadow: none !important;
+}
+.costumize-input-icon.form-control {
+  border: none !important;
+  padding: 0 !important;
+  border-radius: unset !important;
+}
+.input-group:focus-within {
+  border-color: #8fc4f2;
+}
+.is-invalid.input-group:focus-within {
+  border-color: #fc4b6c;
+  box-shadow: 0 0 0 0.2rem rgba(252, 75, 108, 0.25);
+}
+.unset-border {
+  border: unset !important;
+}

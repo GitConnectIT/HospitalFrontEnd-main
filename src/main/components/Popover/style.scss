@@ -1,0 +1,37 @@
+.popover {
+  max-width: 80% !important;
+  width: 450px !important;
+}
+.popover-header {
+  background-color: var(--bs-white) !important;
+  color: var(--bs-gray-700) !important;
+  z-index: 1;
+  padding: 1rem;
+}
+.popover-body {
+  overflow-y: scroll !important;
+  max-height: 400px !important;
+  display: flex;
+  flex-direction: column-reverse;
+  padding: 0.5rem 0.5rem 0.5rem 1rem;
+}
+.popover-body:not(.table-touch)::-webkit-scrollbar {
+  background: transparent;
+  width: 0.5rem;
+  cursor: pointer;
+}
+.popover-body:not(.table-touch)::-webkit-scrollbar-thumb {
+  background: var(--bs-gray-400) !important;
+  border-radius: 0.25em !important;
+}
+.popover-body:not(.table-touch)::-webkit-scrollbar-thumb:hover {
+  background: var(--bs-gray-600) !important;
+}
+.popover-footer {
+  padding: 0.5rem 1rem;
+  justify-content: flex-end;
+  display: flex;
+  z-index: -9999 !important;
+  align-items: center;
+  background-color: var(--bs-white);
+}

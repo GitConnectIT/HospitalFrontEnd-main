@@ -1,0 +1,103 @@
+.text-align-right {
+  text-align: right;
+}
+.text-align-center {
+  text-align: center;
+}
+.table-responsive{
+  overflow-x: scroll !important;
+}
+.table-header-cell {
+  white-space: nowrap;
+}
+.table-links {
+  color: var(--bs-table-hover-color);
+}
+.table-header-cell:not(.action-icons):hover {
+  cursor: pointer;
+}
+.table-header-cell:not(.action-icons, .active-column):hover {
+  color: var(--bs-gray-800) !important;
+  background-color: var(--bs-light) !important;
+  transition: 0.3s;
+}
+
+#exampleSelect {
+  width: min-content;
+}
+.table-header-cell.active-column {
+  color: var(--bs-primary);
+}
+.paragraph-margin {
+  margin-bottom: unset !important;
+}
+
+.page-item.active .page-link {
+  z-index: unset !important;
+}
+
+.table-responsive:not(.table-touch)::-webkit-scrollbar {
+  background: transparent;
+  height: 0.5rem;
+  cursor: pointer;
+}
+.table-responsive:not(.table-touch)::-webkit-scrollbar-thumb {
+  background: var(--bs-gray-400) !important;
+  border-radius: 0.25em !important;
+}
+.table-responsive:not(.table-touch)::-webkit-scrollbar-thumb:hover {
+  background: var(--bs-gray-600) !important;
+}
+
+.action-icons {
+  position: sticky !important;
+  right: -0.5px !important;
+  background-color: var(--bs-gray-100) !important;
+}
+.icons-sticky {
+  position: sticky !important;
+  right: -0.5px !important;
+  background-color: var(--bs-white) !important;
+}
+
+.table-cell-ellipsis {
+  max-width: 22rem;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+@media only screen and (max-width: 360px) {
+  .display-content-center {
+    grid-auto-flow: unset !important;
+  }
+}
+
+.skeleton-table-mobile {
+  display: none;
+}
+@media only screen and (max-width: 750px) {
+  .skeleton-table-desktop {
+    display: none;
+  }
+  .skeleton-table-mobile {
+    display: block;
+  }
+}
+table tr:last-child td {
+  border-bottom: 0 !important;
+}
+.data-slice {
+  border-left: 2px solid transparent !important;
+}
+.data-slice:hover {
+  border-left: 2px solid var(--bs-gray-600) !important;
+}
+.table-header {
+  background-color: var(--bs-gray-100);
+}
+.export-button {
+  background-color: var(--bs-gray-400) !important;
+  color: var(--bs-secondary) !important;
+  border: none !important;
+}
